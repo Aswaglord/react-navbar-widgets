@@ -1,0 +1,38 @@
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 400px;
+  
+  .nav-bar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1000px;
+    height: 100px;
+    background-color: lightseagreen;
+
+    .link {
+      text-decoration: none;
+      cursor: pointer;
+      color: white;
+      background-color: blue;
+      padding: 5px 10px;
+      border-radius: 10px;
+    }
+  }
+  
+}
+
+.dice {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 200px;
+
+  img {
+    width: 100px;
+    height: 100px;
+  }
+}
